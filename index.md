@@ -26,7 +26,7 @@ We are partnering with federal agencies to deploy our tools in real-world disast
 
 
 ## Other references
-1. NOAA National Weather Service. Hydrologic information center - flood loss data. HTML, Last Accessed on 6/21/17.
+1. NOAA National Weather Service. Hydrologic information center - flood loss data. [HTML](http://www.nws.%20noaa.gov/hic/), Last Accessed on 6/21/17.
 2. 
 
 Welcome to GitHub Pages
