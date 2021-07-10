@@ -52,7 +52,4 @@ We are partnering with federal agencies to deploy our tools in real-world disast
 3. Don Cline. Integrated water resources science and services: an integrated and adaptive roadmap for operational implementation. Technical Report IWRSS-2009-03-02, National Oceanic and Atmospheric Administration, 2009.
 
 ## Acknowledgement
-<img class="float" src="images/nsf.png" width="10%" style="margin-right:15px;">
-<img class="float" src="images/usgs.png" width="20%" style="margin-right:15px;">
-<img class="float" src="images/noaa.png" width="10%" style="width:10%;margin-right:15px;">
-<img class="float" src="images/nvidia.png" width="10%" style="width:10%;margin-right:15px;">
+<img class="float" src="images/nsf.png" width="10%" style="margin-right:15px;"><img class="float" src="images/usgs.png" width="20%" style="margin-right:15px;"><img class="float" src="images/noaa.png" width="10%" style="width:10%;margin-right:15px;"><img class="float" src="images/nvidia.png" width="10%" style="width:10%;margin-right:15px;">
