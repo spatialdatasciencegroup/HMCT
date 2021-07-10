@@ -36,7 +36,7 @@ We are partnering with federal agencies to deploy our tools in real-world disast
 ## Software Codes
 - Hidden Markov Contour Tree [Code Repository](https://github.com/spatialdatasciencegroup/HMCT/)
 
-## Collaborators and Partners
+## External Collaborators and Partners
 - NOAA National Water Center
 - NASA Ames
 - USGS Hydrological Remote Sensing Branch
