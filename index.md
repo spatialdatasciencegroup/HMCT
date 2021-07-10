@@ -12,11 +12,15 @@ A fundamental problem in hydrology is mapping the flow and distribution of water
 
 To address the issue, we developed the geographical Hidden Markov Tree (HMT) [4-9], a probabilistic model tying similar space and topography in the same way that a human analyst visually "assumes" the continuity and connectivity of flood points with similar or lower topography and through obscured views. As illustrated in Figure 1 left, if the pixel at location 5 is flooded due to gravity, nearby lower altitude locations (2-4; 6-7) must also be flooded. That is true even if spectral signatures of these locations suggest otherwise due to clouds or vegetation obscuration. The HMT represents this physical constraint through partial order in a reverse tree structure (Figure 1, middle). If any node is flooded (e.g., node 5), then all of the sub-tree nodes under it must also be flood (e.g., nodes 2-4; 6-7). In HMT, the reverse tree structure is incorporated as a hidden class layer (Figure 1, right), in which each node represents a pixel's unknown class (flood or dry), and the arrows between nodes represent partial order dependency between pixel classes based on the topographic physical constraint. Given an initial probability map of pixel classes (flood or dry) from deep learning or community-generated flood maps, HMT can efficiently re-estimate pixels' classes based on topography through tree traversal operations without manually setting thresholds as in existing work. Implemented in C++, HMT can process up to 10 million pixels in a few minutes. The high computational scalability is a significant advantage of HMT from an operational perspective.
 
-![image](images/flood2.png)
+<p align="center">
+  <img src="images/flood2.png" width="100%">
+</p>
 
 Examples of real-world applications for the HMT model are shown in Figure 2 for Hurricanes Matthew and Harvey. Here, initial flood maps were generated using decision tree results. We can see that the initial classifications only identify water/flood pixels where the water surface is exposed, and areas are missed below tree canopies and other obstructions. In contrast, the HMT provides a complete inundation extent. Preliminary results show that HMT can refine flood inundation extent based on topography.
 
-![image](images/flood1.png)
+<p align="center">
+  <img src="images/flood.png" width="80%">
+</p>
 
 We are partnering with federal agencies to deploy our tools in real-world disaster response and national water forecasting, including the US Geological Survey (USGS) hydrological remote sensing branch at Reston VA, NASA Ames, and the NOAA National Water Center.
 
