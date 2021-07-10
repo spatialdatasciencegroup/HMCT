@@ -51,3 +51,9 @@ We are partnering with federal agencies to deploy our tools in real-world disast
 2. National Oceanic and Atmospheric Administration. National Water Model: Improving NOAA’s Water Prediction Services. [PDF](http://water.noaa.gov/documents/wrn-national-water-model.pdf), Last Accessed on July 1, 2020.
 3. Don Cline. Integrated water resources science and services: an integrated and adaptive roadmap for operational implementation. Technical Report IWRSS-2009-03-02, National Oceanic and Atmospheric Administration, 2009.
 
+## Acknowledgement
+<img class="float" src="images/nsf.png" style="height:100px;margin-right:15px;">
+<img class="float" src="images/usgs.png" style="height:100px;margin-right:15px;">
+<img class="float" src="images/ucar.png" style="height:100px;margin-right:15px;">
+<img class="float" src="images/noaa.png" style="height:100px;margin-right:15px;">
+<img class="float" src="images/nvidia.png" style="height:100px;margin-right:15px;">
