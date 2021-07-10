@@ -34,7 +34,7 @@ Examples of real-world applications for the HMT model are shown in Figure 2 for 
 We are partnering with federal agencies to customize and deploy our tools in real-world disaster response and national water forecasting, including the US Geological Survey (USGS) hydrological remote sensing branch at Reston VA, NASA Ames, and the NOAA National Water Center.
 
 ## Software Codes
-- Hidden Markov Contour Tree: [C++ Codes in Github Code Repository](https://github.com/spatialdatasciencegroup/HMCT/)
+- Hidden Markov Contour Tree: [C++ Codes in Github Repository](https://github.com/spatialdatasciencegroup/HMCT/)
 - More interative tools are under development ...
 
 ## External Collaborators and Partners
@@ -54,7 +54,7 @@ We are partnering with federal agencies to customize and deploy our tools in rea
 
 
 ## Other References
-1. NOAA National Weather Service. Hydrologic information center - flood loss data.Last Accessed on 6/21/17.
+1. NOAA National Weather Service. Hydrologic information center - flood loss data. Last Accessed on 6/21/17.
 2. National Oceanic and Atmospheric Administration. National Water Model: Improving NOAA’s Water Prediction Services. [PDF](http://water.noaa.gov/documents/wrn-national-water-model.pdf), Last Accessed on July 1, 2020.
 3. Don Cline. Integrated water resources science and services: an integrated and adaptive roadmap for operational implementation. Technical Report IWRSS-2009-03-02, National Oceanic and Atmospheric Administration, 2009.
 
