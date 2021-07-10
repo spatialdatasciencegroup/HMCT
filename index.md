@@ -34,7 +34,7 @@ Examples of real-world applications for the HMT model are shown in Figure 2 for 
 We are partnering with federal agencies to deploy our tools in real-world disaster response and national water forecasting, including the US Geological Survey (USGS) hydrological remote sensing branch at Reston VA, NASA Ames, and the NOAA National Water Center.
 
 ## Software Codes
-- Hidden Markov Contour Tree [Code Repository](https://github.com/spatialdatasciencegroup/HMCT/)
+- Hidden Markov Contour Tree [Github Code Repository](https://github.com/spatialdatasciencegroup/HMCT/)
 
 ## External Collaborators and Partners
 - NOAA National Water Center
