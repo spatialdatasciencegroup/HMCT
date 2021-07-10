@@ -1,5 +1,5 @@
 
-## Machine Learning Foundation
+## Advances in Machine Learning Foundation
 
 Spatial structured models are predictive models that capture dependency structure between samples based on their locations. 
 Given data samples in a spatial raster framework with explanatory feature layers and a potential field layer, as well as an independent set of training samples with class labels, the spatial structured learning problem aims to learn a model that can predict sample classes in the same framework. For example, in flood extent mapping from earth imagery, data samples are imagery pixels in a regular grid, the explanatory feature layers are spectral bands, and the potential field can be elevation that controls water flow directions. The goal is to predict the classes (flood or dry) of pixels based on both the spectral features and the implicit flow directions based on elevation.
