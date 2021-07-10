@@ -36,6 +36,12 @@ We are partnering with federal agencies to deploy our tools in real-world disast
 ## Software Codes
 - Hidden Markov Contour Tree [Code Repository](https://github.com/spatialdatasciencegroup/HMCT/)
 
+## Collaborators and Partners
+- NOAA National Water Center
+- NASA Ames
+- USGS Hydrological Remote Sensing Branch
+- NGA
+
 ## Publications
 1. Zhe Jiang, Arpan Man Sainju, "Hidden Markov Contour Tree: A Spatial Structured Model for Hydrological Applications", ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), Anchorage, AK, USA, 2019 
 2. Miao Xie, Zhe Jiang, Arpan Man Sainju, "Geographical Hidden Markov Tree for Flood Extent Mapping", ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), London, UK, 2018 
