@@ -1,6 +1,16 @@
 
 ## Machine Learning Foundation
 
+Spatial structured models are predictive models that capture dependency structure between samples based on their locations. 
+Given data samples in a spatial raster framework with explanatory feature layers and a potential field layer, as well as an independent set of training samples with class labels, the spatial structured learning problem aims to learn a model that can predict sample classes in the same framework. For example, in flood extent mapping from earth imagery, data samples are imagery pixels in a regular grid, the explanatory feature layers are spectral bands, and the potential field can be elevation that controls water flow directions. The goal is to predict the classes (flood or dry) of pixels based on both the spectral features and the implicit flow directions based on elevation.
+
+However, the problem poses several unique challenges that are not well addressed in traditional classification problems. First, implicit spatial dependency structure exists between pixel locations. For example, due to gravity, flood water tends to flow from one location to nearby lower locations. Such dependency structure is complex, following contour patterns on a 3D surface. 
+Second, data contains rich noise and obstacles. For example, high-resolution earth imagery often has noise, clouds and shadows. In addition, the spectral features of image pixels can be insufficient to distinguish classes (also called class confusion) due to heterogeneity. For instance, pixels of tree canopies overlaying flood water have the same spectral features with those trees in dry areas, yet their classes are different.
+Finally, the problem is also computationally challenging due to the cost of modeling complex spatial structure on a large data volume (e.g., billions of sample locations).
+
+Existing spatial structured models often assume that the dependency structure is based on spatial proximity or spatial network topology. To fill the gap, we propose a novel spatial structure model called hidden Markov contour tree (HMCT). It is a probabilistic graphical model that generalizes the common hidden Markov model (HMM) from a total order sequence to a partial order polytree. Specifically, the hidden class layer contains nodes (pixels) in a contour tree structure to reflect flow directions between all locations on a 3D surface. To speed up model learning and class inference, we propose efficient algorithms based on contour tree node collapsing and value pre-aggregation. 
+
+
 ## Interdisciplinary Application: Topography-Aware Flood Inundation Mapping from Satellite Images
 
 A fundamental problem in hydrology is mapping the flow and distribution of water on the Earth's surface [R1]. The National Oceanic and Atmospheric Administration (NOAA) National Water Center on The University of Alabama (UA) campus currently operates a next-generation hyper-resolution National Water Model that can forecast the flow of over 2.7 million stream reaches across the entire continental US [R2,R3]. One major issue of the model is that it is only calibrated and validated by limited observations from around 7000 river gauges. Flood extent maps derived from earth imagery can potentially not only improve the situational awareness for disaster response but also enhance the calibration and validation of the National Water Model. However, the problem is significantly more complex than image classification since the distribution of floodwater is constrained by geographical terrains. Incorporating such topography structures can mitigate image noise and obstacles (e.g., clouds, heavy vegetation).
@@ -24,7 +34,7 @@ Examples of real-world applications for the HMT model are shown in Figure 2 for 
 We are partnering with federal agencies to deploy our tools in real-world disaster response and national water forecasting, including the US Geological Survey (USGS) hydrological remote sensing branch at Reston VA, NASA Ames, and the NOAA National Water Center.
 
 ## Software Codes
-- Hidden Markov Contour Tree
+- Hidden Markov Contour Tree [Code Repository](https://github.com/spatialdatasciencegroup/HMCT/)
 
 ## Publications
 1. Zhe Jiang, Arpan Man Sainju, "Hidden Markov Contour Tree: A Spatial Structured Model for Hydrological Applications", ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), Anchorage, AK, USA, 2019 
@@ -41,40 +51,3 @@ We are partnering with federal agencies to deploy our tools in real-world disast
 2. National Oceanic and Atmospheric Administration. National Water Model: Improving NOAA’s Water Prediction Services. [PDF](http://water.noaa.gov/documents/wrn-national-water-model.pdf), Last Accessed on July 1, 2020.
 3. Don Cline. Integrated water resources science and services: an integrated and adaptive roadmap for operational implementation. Technical Report IWRSS-2009-03-02, National Oceanic and Atmospheric Administration, 2009.
 
-Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/spatialdatasciencegroup/HMCT/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/spatialdatasciencegroup/HMCT/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
