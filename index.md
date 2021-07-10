@@ -54,6 +54,5 @@ We are partnering with federal agencies to deploy our tools in real-world disast
 ## Acknowledgement
 <img class="float" src="images/nsf.png" style="height:100px;margin-right:15px;">
 <img class="float" src="images/usgs.png" style="height:100px;margin-right:15px;">
-<img class="float" src="images/ucar.png" style="height:100px;margin-right:15px;">
 <img class="float" src="images/noaa.png" style="height:100px;margin-right:15px;">
 <img class="float" src="images/nvidia.png" style="height:100px;margin-right:15px;">
