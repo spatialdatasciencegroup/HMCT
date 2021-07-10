@@ -1,4 +1,4 @@
-# Project Website: Hidden Markov Tree
+# Hidden Markov Tree
 
 ## Machine Learning Foundation
 
