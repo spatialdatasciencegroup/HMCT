@@ -1,4 +1,3 @@
-# Hidden Markov Tree
 
 ## Machine Learning Foundation
 
