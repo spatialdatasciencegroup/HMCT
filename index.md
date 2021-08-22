@@ -37,6 +37,11 @@ We are partnering with federal agencies to customize and deploy our tools in rea
 - Hidden Markov Contour Tree: [C++ Codes in Github Repository](https://github.com/spatialdatasciencegroup/HMCT/)
 - More interative tools are under development ...
 
+## Key Personnel
+- PI: Dr. Zhe Jiang
+- Graduate Students: Arpan Man Sainju, Wenchong He
+- Undergraduate Students: TBD
+
 ## External Collaborators and Partners
 - NOAA National Water Center
 - NASA Ames
