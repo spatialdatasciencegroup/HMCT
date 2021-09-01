@@ -38,10 +38,12 @@ We are partnering with federal agencies to customize and deploy our tools in rea
 - Hidden Markov Contour Tree: [C++ Codes in Github Repository](https://github.com/spatialdatasciencegroup/HMCT/)
 - More interative tools are under development ...
 
-## Key Personnel
-- PI: Dr. Zhe Jiang
-- Graduate Students: Arpan Man Sainju, Wenchong He
-- Undergraduate Students: TBD
+## Project Team
+- PIs: Dr. Zhe Jiang (UF, Lead PI), Dr. Da Yan (UAB)
+- Ph.D. Students: Arpan Man Sainju (Graduated at UA, now AP@MTSU(https://www.cs.mtsu.edu/~asainju/)), Wenchong He (UF), Saugat Adhikari (UAB)
+- Master Student: Jiaqing Zhang (UF)
+- Undergraduate Students: Vyas Padmanabhan (UA), more additional at UF TBD.
+
 
 ## External Collaborators and Partners
 - NOAA National Water Center
