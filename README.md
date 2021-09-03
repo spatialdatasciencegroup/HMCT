@@ -28,6 +28,7 @@ Spatial structured models are predictive models that capture dependency structur
 	
 ## Developer
 Dr. Arpan Man Sainju
+
 Dr. Zhe Jiang
 
 ## Reference
