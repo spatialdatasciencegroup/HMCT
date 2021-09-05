@@ -40,7 +40,7 @@ We are partnering with federal agencies to customize and deploy our tools in rea
 
 ## Project Team
 - **PIs**: Dr. [Zhe Jiang](http://www.jiangteam.org/) (UF, Lead PI), Dr. Da Yan (UAB)
-- **Ph.D. Students**: Arpan Man Sainju (Graduated at UA, now [AP@MTSU](https://www.cs.mtsu.edu/~asainju/)), Wenchong He (UF), Saugat Adhikari (UAB)
+- **Ph.D. Students**: Dr. Arpan Man Sainju (now [AP@MTSU](https://www.cs.mtsu.edu/~asainju/)), Wenchong He (UF), Saugat Adhikari (UAB)
 - **Master Student**: Jiaqing Zhang (UF)
 - **Undergraduate Students**: Vyas Padmanabhan (UA), more additional at UF TBD.
 
