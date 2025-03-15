@@ -41,15 +41,9 @@ We are partnering with federal agencies to customize and deploy our tools in rea
 ## Project Team
 - **PIs**: Dr. [Zhe Jiang](http://www.jiangteam.org/) (UF, Lead PI), Dr. Da Yan (UAB)
 - **Ph.D. Students**: Dr. Arpan Man Sainju (now [AP@MTSU](https://www.cs.mtsu.edu/~asainju/)), Wenchong He (UF), Saugat Adhikari (UAB)
-- **Master Student**: Jiaqing Zhang (UF)
-- **Undergraduate Students**: Vyas Padmanabhan (UA), more additional at UF TBD.
 
 
-## External Collaborators and Partners
-- NOAA National Water Center
-- NASA Ames
-- USGS Hydrological Remote Sensing Branch
-- NGA
+
 
 ## Publications
 1. Zhe Jiang, Arpan Man Sainju, "Hidden Markov Contour Tree: A Spatial Structured Model for Hydrological Applications", ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), Anchorage, AK, USA, 2019 
@@ -61,10 +55,6 @@ We are partnering with federal agencies to customize and deploy our tools in rea
 7. Arpan Man Sainju, Wenchong He, Zhe Jiang, Da Yan, Haiquan Chen, "Spatial Classification With Limited Observations Based On Physics-Aware Structural Constraint", Frontiers on Big Data, 2021 
 
 
-## Other References
-1. NOAA National Weather Service. Hydrologic information center - flood loss data. Last Accessed on 6/21/17.
-2. National Oceanic and Atmospheric Administration. National Water Model: Improving NOAA’s Water Prediction Services. [PDF](http://water.noaa.gov/documents/wrn-national-water-model.pdf), Last Accessed on July 1, 2020.
-3. Don Cline. Integrated water resources science and services: an integrated and adaptive roadmap for operational implementation. Technical Report IWRSS-2009-03-02, National Oceanic and Atmospheric Administration, 2009.
 
 ## Acknowledgement
 <img class="float" src="images/nsf.png" width="10%" style="margin-right:15px;"><img class="float" src="images/usgs.png" width="20%" style="margin-right:15px;"><img class="float" src="images/noaa.png" width="10%" style="width:10%;margin-right:15px;"><img class="float" src="images/nvidia.png" width="10%" style="width:10%;margin-right:15px;">
